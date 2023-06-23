@@ -33,12 +33,13 @@ const Gallery = () => {
   return (
     <div className='w-screen grid grid-cols-3 relative bg-[#B08968] p-20 m-0'>
     <div className='w-screen h-full pattern absolute top-0 left-0'></div>
-        {galleryData.map((item,key)=>(
-          <GalleryComp key title={item.title} desc={item.desc} url={item.url}/>
+        {galleryData.map((item,keyval)=>(
+          <GalleryComp key={keyval} title={item.title} desc={item.desc} url={item.url}/>
         ))}
     </div>
   )
 }
 
 export default Gallery
+
 
