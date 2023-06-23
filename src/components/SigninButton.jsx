@@ -9,7 +9,7 @@ const SigninButton = () => {
     console.log(session?.user)
 
     if(session && session.user){
-        return (<div className='flex gap-4 ml-auto'>
+        return (<div className='w-fit m-auto flex gap-4 ml-auto justify-center items-center'>
                 <p className='text-sky-600'>{session.user.name}</p>
                 <button onClick={()=>{
                     return signOut()

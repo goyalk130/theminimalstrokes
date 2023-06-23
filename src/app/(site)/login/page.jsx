@@ -15,8 +15,8 @@ const Login = () => {
         })
     }
   return (
-    <div>
-        <div>
+    <div className='h-screen w-screen flex justify-center items-center'>
+        <div className='w-1/2 h-1/3 flex justify-center items-center gap-4 flex-row'>
             <input type='text' placeholder='username' onChange={(e)=>userName.current=e.target.value}></input>
             <input type='password' placeholder='password' onChange={(e)=>pass.current=e.target.value}></input>
             <button onClick={submit}>Submit</button>
