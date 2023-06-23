@@ -12,3 +12,10 @@ div{
     padding: 1;
     margin: 0;
 }
+
+.pattern{
+    background-color: transparent;
+opacity: 0.2;
+background-image:  linear-gradient(#7F5539 1px, transparent 1px), linear-gradient(to right, #7F5539 1px, #B08968 1px);
+background-size: 20px 20px;
+}
