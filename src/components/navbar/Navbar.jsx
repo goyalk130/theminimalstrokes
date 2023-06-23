@@ -1,13 +1,18 @@
 "use client"
 import React, { useState } from "react";
 import SigninButton from "../SigninButton";
+import {DM_Sans} from "next/font/google"
+
+
+const DmSans = DM_Sans({ subsets: ["latin"] ,weight:["400","500","700"]});
+
 
 const Navbar = () => {
 
   const [tooglenav, settooglenav] = useState(false)
   return (
     <>
-      <div className="sm:flex hidden flex-grow flex-row fixed h-[15vh] w-full top-0 left-0 py-24 px-40">
+      <div className={`${DmSans.className} sm:flex hidden flex-grow flex-row fixed h-[15vh] w-full top-0 left-0 py-24 px-40`}>
       <div className=" logo flex-grow  flex justify-start items-center"><h1 className="inline">The Minimal Strokes</h1></div>
       <div className=" logo flex-grow"></div>
       <div className=" flex-grow flex flex-row justify-between items-center list-none p-0 m-0">
