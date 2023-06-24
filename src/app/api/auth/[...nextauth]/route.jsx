@@ -32,7 +32,9 @@ const handler = NextAuth({
                 })
             })
 
+            console.log(35,"user nahi aya")
             const user = await res.json();
+            console.log(37,"user aya")
 
             if(user){
                 return user
