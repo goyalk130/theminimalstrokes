@@ -3,6 +3,7 @@ import prisma from "../../../../libs/prismadb"
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google"
+import geturl from "@/libs/geturl";
 
 
 const handler = NextAuth({
@@ -19,7 +20,7 @@ const handler = NextAuth({
         },
         async authorize(credentials, req) {
           
-            const res = await fetch("http://localhost:3000/api/login",{
+            const res = await fetch(geturl("/api/login"),{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json"
