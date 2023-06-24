@@ -6,6 +6,7 @@ import GoogleProvider from "next-auth/providers/google"
 import geturl from "@/libs/geturl";
 
 
+
 const handler = NextAuth({
     providers:[CredentialsProvider({
         // The name to display on the sign in form (e.g. "Sign in with...")
