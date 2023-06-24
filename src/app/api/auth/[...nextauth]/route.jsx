@@ -47,7 +47,7 @@ const handler = NextAuth({
 
 
       })],
-      secret:"gjbfjbjfnbklgnbjgbgbhncg c cgncfbxb",
+    //   secret:"gjbfjbjfnbklgnbjgbgbhncg c cgncfbxb",
 
       pages:{
         signIn:"/login"
