@@ -12,8 +12,8 @@ const Sell = () => {
         <div className='w-full h-full flex gap-24 flex-col justify-center items-start grayscale-0'>
             <div className={`${unicaone.className} flex-grow text-primary text-8xl`}><h2>Elevate your memories with minimal strokes. dive in now</h2></div>
             <div className='flex-grow gap-4 flex flex-row'>
-                <Button name={"Shop Now"} color={"primary"} textcolor={"text"} func={()=>{console.log("shop now")}} />
-                <Button name={"Browse Gallery"} color="secondary" textcolor={"text"} func={()=>{console.log("shop now")}} />
+                <Button className="bg-primary" name={"Shop Now"} color="primary" textcolor={"text"} func={()=>{console.log("shop now")}} />
+                <Button className="bg-secondary" name={"Browse Gallery"} color="secondary" textcolor={"text"} func={()=>{console.log("shop now")}} />
             </div>
         </div>
     </div>
