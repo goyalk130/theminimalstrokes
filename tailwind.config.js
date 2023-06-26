@@ -22,6 +22,15 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
+    colors:{
+      "primary":"#ffffff",
+      "secondary":"#EDE0D4",
+      "background":"#B08968",
+      "highlight":"#A77B57",
+      "text":"#000000",
+      "bordercol":"#35101045",
+      "transparent":"#35101000",
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
