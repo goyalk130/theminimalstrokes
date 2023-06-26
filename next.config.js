@@ -3,7 +3,7 @@ const nextConfig = {images:{
     remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'instagram.fjai1-2.fna.fbcdn.net',
+          hostname: 'res.cloudinary.com',
           port: '',
           pathname: '/**',
         },

@@ -7,26 +7,26 @@ const Gallery = () => {
     {
       title:"Photo Wallet Card",
       desc:"Exercitation elit laboris culpa officia qui eu. Reprehenderit do deserunt dolor labore culpa ipsum ullamco dolore minim sit. Ea id magna enim id commodo voluptate duis ad qui deserunt non ea.",
-      url:"1.jpg"},
+      url:"https://res.cloudinary.com/dk0qsqbcy/image/upload/v1687804714/5_ldnlzz.jpg"},
     {
       title:"Photo Wallet Card",
       desc:"Exercitation elit laboris culpa officia qui eu. Reprehenderit do deserunt dolor labore culpa ipsum ullamco dolore minim sit. Ea id magna enim id commodo voluptate duis ad qui deserunt non ea.",
-      url:"2.jpg"
+      url:"https://res.cloudinary.com/dk0qsqbcy/image/upload/v1687804714/2_ydbr6p.jpg"
     },
     {
       title:"Photo Wallet Card",
       desc:"Exercitation elit laboris culpa officia qui eu. Reprehenderit do deserunt dolor labore culpa ipsum ullamco dolore minim sit. Ea id magna enim id commodo voluptate duis ad qui deserunt non ea.",
-      url:"3.jpg"
+      url:"https://res.cloudinary.com/dk0qsqbcy/image/upload/v1687804714/4_wnnn19.jpg"
     },
     {
       title:"Photo Wallet Card",
       desc:"Exercitation elit laboris culpa officia qui eu. Reprehenderit do deserunt dolor labore culpa ipsum ullamco dolore minim sit. Ea id magna enim id commodo voluptate duis ad qui deserunt non ea.",
-      url:"4.jpg"
+      url:"https://res.cloudinary.com/dk0qsqbcy/image/upload/v1687804713/1_q0o7qh.jpg"
     },
     {
       title:"Photo Wallet Card",
       desc:"Exercitation elit laboris culpa officia qui eu. Reprehenderit do deserunt dolor labore culpa ipsum ullamco dolore minim sit. Ea id magna enim id commodo voluptate duis ad qui deserunt non ea.",
-      url:"5.jpg"
+      url:"https://res.cloudinary.com/dk0qsqbcy/image/upload/v1687804713/3_avyjgu.jpg"
     },
   ]
   return (
