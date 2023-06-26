@@ -6,7 +6,7 @@ const SigninButton = () => {
 
     const {data: session} = useSession()
 
-    console.log(session?.user)
+    console.log(session)
 
     if(session && session.user){
         return (<div className='w-fit m-auto flex gap-4 ml-auto justify-center items-center'>

@@ -31,7 +31,7 @@ const Gallery = () => {
     },
   ]
   return (
-    <div className='w-full grid grid-cols-3 relative bg-[#B08968] p-20 m-0'>
+    <div className='w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 relative bg-[#B08968] p-10 2xl:p-20 m-0'>
     <div className='w-full h-full pattern absolute top-0 left-0'></div>
         {galleryData.map((item,keyval)=>(
           <GalleryComp key={keyval} title={item.title} desc={item.desc} url={item.url}/>

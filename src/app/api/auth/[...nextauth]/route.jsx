@@ -22,7 +22,7 @@ const handler = NextAuth({
         async authorize(credentials, req) {
             const url=geturl("/api/login")
             console.log(url,credentials)
-            const res = await fetch("https://"+url,{
+            const res = await fetch(url,{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json"
