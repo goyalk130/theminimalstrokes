@@ -11,7 +11,7 @@ const Button = ({name,color,func,textcolor}) => {
     const s = "bg-"+color
     console.log(s)
   return (
-    <div className={`${s} p-3 px-4 rounded-lg flex justify-center items-center` }>
+    <div className={`${s} p-2 px-3 lg:p-3 lg:px-4 lg:rounded-lg rounded-md flex justify-center items-center` }>
     <button className={`p-0 m-0 text-${textcolor} ${dmsans.className} font-medium`} onClick={func}>{name}</button>
     </div>
   )

@@ -18,7 +18,7 @@ const Review = () => {
     ]
   return (
     <div className='bg-background w-full p-40 '>
-        <div className='w-full h-full flex flex-row  justify-around gap-2 items-stretch '>
+        <div className='w-full h-full flex flex-col md:flex-row  justify-around gap-2 items-stretch '>
             {reviews.map((item,keyval)=>{
                 return(<ReviewBox name={item.name} key={keyval} review={item.review} />)
             })}
