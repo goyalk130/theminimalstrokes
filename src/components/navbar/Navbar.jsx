@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`${DmSans.className} font-medium sm:flex hidden justify-center items-center absolute h-[15vh] w-full top-0 left-0 my-0 px-20 grayscale-0 text-primary z-50`}
+        className={`${DmSans.className} font-medium sm:flex hidden justify-center items-center fixed h-[15vh] w-full top-0 left-0 my-0 px-20 grayscale-0 text-primary z-50`}
       >
         <div className="w-full h-full grid grid-flow-row grid-cols-2">
           <div className=" logo flex-grow flex justify-start items-center">
