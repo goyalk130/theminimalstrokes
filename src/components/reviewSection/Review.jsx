@@ -17,7 +17,7 @@ const Review = () => {
         },
     ]
   return (
-    <div className='bg-text w-full  lg:p-28 lg:px-20'>
+    <div id='testimonials' className='bg-text w-full  lg:p-28 lg:px-20'>
         <div className='w-full h-full flex  overflow-scroll md:overflow-hidden flex-row  justify-between gap-2 items-stretch  my-20 scroll-m-0 '>
             {reviews.map((item,keyval)=>{
                 return(<ReviewBox name={item.name} key={keyval} review={item.review} />)
